@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <style>
+	table,th,td{
+        border: 1px solid black;
+    }
+	</style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">October</th>
+            <th colspan="2">November</th>
+        </tr>
+        <tr>
+            <td>sales</td>
+            <td>profit</td>
+            <td>sales</td>
+            <td>profit</td>
+        </tr>
+        <tr>
+            <td>$200,00</td>
+            <td>$50,00</td>
+            <td>$300,00</td>
+            <td>$70,00</td>
+        </tr>
+        <tr>
+            <td>$200,00</td>
+            <td>$50,00</td>
+            <td>$300,00</td>
+            <td rowspan="2">$70,00</td>
+        </tr>
+        <tr>
+            <td>$200,00</td>
+            <td>$50,00</td>
+            <td>$300,00</td>
+        </tr>
+        <tr>
+            <th colspan="4">November was more produstive</th>
+        </tr>
+    </table>
+</body>
+</html>
